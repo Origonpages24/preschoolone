@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poppins";
 }
 .poppins-thin {
     font-family: "Poppins", sans-serif;
@@ -111,6 +112,9 @@
   }
 :root{
     --primary-color: #00A9F9;
+    --green: #8CC24A;
+    --red: #F14435;
+    --yellow: #FFA827;
 }
 
 
@@ -183,66 +187,7 @@
     color: white;
     opacity: 80%;
   }
-  @media (min-width:1124px) {
-      h1{
-        font-size: 35px !important;
-      }
-    }
-  }
-  @media ( max-width:1080px) {
-      h1{
-        font-size: 28px !important;
-      }
-      p{
-        font-size: 17px !important;
-        line-height: 23px;
-      }
-      .banner-btn{
-        padding: 8px 16px !important;
-        font-size: 16px !important;
-      }
-    }
-    @media (max-width:780px) {
-        h1{
-          font-size: 22px !important;
-        }
-        p{
-          font-size: 12px !important;
-          line-height: 20px !important;
-        }
-        .banner-btn{
-          font-size: 12px !important;
-          padding: 6px 15px;
-          i{
-              font-size: 12px !important;
-          }
-        }
-    }
-    @media (max-width:520px) {
-      h1{
-        font-size: 20px !important;
-      }
-      p{
-        font-size: 10px !important;
-        line-height: 18px !important;
-      }
-      .banner-btn{
-        font-size: 10px !important;
-        padding: 5px 12px;
-        i{
-          font-size: 10px !important;
-          }
-      }
-    }
-    @media (max-width:420px) {
-      h1{
-        font-size: 18px !important;
-      }
-      p{
-        font-size: 9px !important;
-        line-height: 16px !important;
-      }
-    }
+}
     
 .banner-btn{
   padding: 10px 20px;
@@ -269,10 +214,194 @@
   font-size: 22px;
   color: white;
   padding: 4px;
-  @media (max-width:780px) {
-    font-size: 17px !important;
+}
+
+/* qualities */
+
+.quality-container{
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+}
+.quality-card{
+  padding: 25px;
+}
+.icon svg{
+  width: 50px;
+  height: 50px;
+  fill: white;
+}
+.blue{
+  background-color: var(--primary-color);
+}
+.green{
+  background-color: var(--green);
+}
+.yellow{
+  background-color: var(--yellow);
+}
+.red{
+  background-color: var(--red);
+}
+.content{
+  color: white;
+  padding-top: 10px;
+  font-family: "Poppins";
+  h6{
+    font-size: 18px;
   }
-  @media (max-width:420px) {
-      font-size: 14px !important;
+  p{
+    font-size: 15px;
+    line-height: 20px;
   }
+  a{
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 15px;
+  }
+}
+
+/*=================== what we offer ================= */
+.offer{
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.offer-container{
+  padding: 100px 0;
+}
+.offer-flex-wrapper{
+  padding-top: 40px;
+}
+.offer-header{
+  text-align: center;
+  font-family: "Poppins";
+  padding: 0 160px;
+  h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #1e1e1e;
+  }
+  p{
+    font-size: 17px;
+    color: #1e1e1eb4;
+    font-weight: 500;
+  }
+}
+.offer-card{
+  padding: 30px;
+}
+.offer-icon{
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offer-icon svg{
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+.offer-content{
+  text-align: center;
+  padding-top: 20px;
+}
+.offer-content h1{
+  font-size: 20px;
+  color: #1e1e1e;
+  font-weight: 600;
+}
+.offer-content p{
+  font-size: 16px;
+  color: #1e1e1e85;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/* =============about us==================== */
+
+.about-us{
+  background-color: #F1F1F1;
+  padding: 100px 0;
+}
+.about-us-image{
+  margin: auto;
+}
+.about-us-image img{
+  width: 200px;
+  height: 160px;
+  object-fit: cover;
+}
+.about-us-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-us-content h1{
+  font-size: 30px;
+  color: #1e1e1e;
+  font-weight: 600;
+}
+.about-us-content p{
+  font-size: 17px;
+  color: #1e1e1ed3;
+  font-weight: 500;
+}
+.about-us-content a{
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+.about-btn{
+  margin-top: 20px !important;
+}
+
+/* ====================== teachers =============== */
+
+.teachers{
+  padding: 100px 0;
+}
+.teacher-header{
+  text-align: center;
+  line-height: 23px;
+}
+.teacher-header h1{
+  font-size: 30px;
+  font-weight: 600;
+  color: #1e1e1e;
+}
+.teacher-header p{
+  font-size: 18px;
+  padding: 0 100px;
+  color: #1e1e1e91;
+  font-weight: 500;
+}
+.teacher-image{
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+}
+.teacher-image img{
+  width: 100%;
+  height: 320px;
+  border: 4px;
+  object-fit: cover;
+}
+.teacher-content{
+  padding: 15px 0px;
+  line-height: 12px;
+}
+.teacher-content h6{
+  font-size: 18px;
+  color: var(--primary-color);
+  font-weight: 600;
 }

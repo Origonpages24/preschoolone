@@ -1,0 +1,291 @@
+/* =============banner=============== */
+
+@media (max-width: 768px) {
+    .banner-content h1 {
+      font-size: 2rem;
+    }
+  
+    .banner-content p {
+      font-size: 1rem;
+    }
+  
+    .banner-btn {
+      padding: 8px 16px;
+    }
+  
+    .social-banner {
+      flex-direction: column;
+    }
+  
+    .banner-socials {
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .banner-content p {
+      font-size: 0.9rem;
+    }
+  
+    .banner-btn {
+      padding: 6px 12px;
+    }
+  
+    .banner-container {
+      padding: 10px;
+    }
+  
+    .banner-inner {
+      padding: 10px;
+    }
+  
+    .social-banner {
+      flex-direction: column;
+    }
+  
+    .banner-socials {
+      font-size: 1.2rem;
+      margin: 5px 0;
+    }
+  }
+
+  /* =============qualitiies===================== */
+
+  
+  @media (max-width: 768px) {
+    .quality-card.col-md-3 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .quality-card.col-md-3 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .quality-card .content h6 {
+      font-size: 1.2em;
+    }
+  }
+
+  /* ========================offer======================= */
+
+  @media (max-width: 1200px) {
+    .offer-card.col-md-4 {
+      flex: 0 0 45%;
+      max-width: 45%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .offer-card.col-md-4 {
+      flex: 0 0 45%;
+      max-width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .offer-card.col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .offer-header h1 {
+      font-size: 2em;
+    }
+    .offer-header{
+        padding: 0px 20px;
+    }
+    .offer-header p {
+      font-size: 1em;
+    }
+  
+    .offer-card.col-md-4 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .offer-card .offer-content h1 {
+      font-size: 1.2em;
+    }
+  
+    .offer-card .offer-content p {
+      font-size: 0.9em;
+    }
+  }
+
+  /* ============= about us ==================== */
+
+  @media (max-width: 1200px) {
+
+    .about-us-content{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .about-us-content h1 {
+      font-size: 2em;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .about-us-content h1 {
+      font-size: 1.8em;
+    }
+  
+    .about-us-content p {
+      font-size: 1.1em;
+    }
+  
+    .about-us-left, .about-us-content {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .about-us-image img {
+      margin-bottom: 5px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-content h1 {
+      font-size: 1.6em;
+    }
+  
+    .about-us-content p {
+      font-size: 1em;
+    }
+  
+    .about-btn a {
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .about-us-container {
+      padding: 10px;
+    }
+  
+    .about-us-content h1 {
+      font-size: 1.4em;
+    }
+  
+    .about-us-content p {
+      font-size: 0.9em;
+    }
+  
+    .about-btn a {
+      padding: 6px 12px;
+    }
+  }
+
+  /* =======================teacher=================== */
+
+  @media (min-width: 576px) {
+    .teacher-card {
+      flex: 0 0 48%;
+      max-width: 48%;
+    }
+  
+    .teacher-card:nth-child(even) {
+      margin-left: 4%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .teacher-card {
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
+  
+    .teacher-card:nth-child(odd) {
+      margin-left: 0;
+    }
+  
+    .teacher-card:nth-child(even) {
+      margin-left: 0;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .teacher-card {
+      flex: 0 0 22%;
+      max-width: 22%;
+    }
+  
+    .teacher-card:nth-child(odd) {
+      margin-left: 0;
+    }
+  
+    .teacher-card:nth-child(even) {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .teacher-header h1 {
+      font-size: 2em;
+    }
+  
+    .teacher-header p {
+      font-size: 1.1em;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .teacher-header h1 {
+      font-size: 1.8em;
+    }
+  
+    .teacher-header p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .teacher-header h1 {
+      font-size: 1.6em;
+    }
+  
+    .teacher-header p {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .teacher-container {
+      padding: 10px;
+    }
+  
+    .teacher-header h1 {
+      font-size: 1.4em;
+    }
+  
+    .teacher-header p {
+      font-size: 0.8em;
+    }
+  
+    .teacher-card {
+      margin: 5px 0; /* Adjust margin for narrow screens */
+      padding: 10px;
+    }
+  
+    .teacher-content h6 {
+      font-size: 1.2em;
+    }
+  
+    .teacher-content p {
+      font-size: 0.9em;
+    }
+  }
+  @media (max-width: 420px) {
+    .teacher-header p{
+        padding: 0px 20px;
+    }
+  }
